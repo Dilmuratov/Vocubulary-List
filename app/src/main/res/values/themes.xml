@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VocabularyList" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.VocabularyList" parent="Base.Theme.VocabularyList" />
+
+    <style name="ThemeOverlay.AppTheme.TextInputEditText.Outlined" parent="">
+        <item name="colorPrimary">@color/brand_color_first</item>
+        <item name="boxStrokeColor">@color/brand_color_first</item>
+        <item name="strokeColor">@color/brand_color_first</item>
+    </style>
+</resources>
